@@ -21,9 +21,10 @@ app.use(express.urlencoded({ extended: true }));
 //   })
 // );
 const corsOptions = {
-  origin: 'https://lnmedustream.netlify.app',  // Replace with your frontend URL
+  origin: 'https://lnmedustream.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
