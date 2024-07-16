@@ -52,7 +52,7 @@ const App = () => {
           <Route path="/course/displaylectures" element={<DisplayLectures />} />
         </Route>
 
-        <Route element={<RequireAuth allowedRoles={["ADMIN"]} />}>
+        <Route element={<RequireAuth allowedRoles={["ADMIN","USER"]} />}>
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
           <Route path="/course/addlecture" element={<AddLecture />} />
           <Route path="/course/create" element={<CreateCourse />} />

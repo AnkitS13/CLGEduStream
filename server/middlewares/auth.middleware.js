@@ -35,7 +35,6 @@ export const authorizeRoles = (...roles) =>
         new AppError("You do not have permission to view this route", 403)
       );
     }
-
     next();
   });
 

@@ -1,10 +1,19 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-hot-toast";
 import axiosInstance from "../Helper/axiosInstance";
+// Utility function to safely parse JSON
+const safeJSONParse = (item) => {
+  try {
+    return JSON.parse(item);
+  } catch (error) {
+    console.error('Failed to parse JSON', error);
+    return null;
+  }
+};
 
 const initialState = {
-  isLoggedIn: localStorage.getItem("isLoggedIn") || false,
-  data: JSON.parse(localStorage.getItem("data")) || {},
+  isLoggedIn: localStorage.getItem("isLoggedIn") === "true" || false,
+  data: safeJSONParse(localStorage.getItem("data")) || {},
   role: localStorage.getItem("role") || "",
 };
 

@@ -35,13 +35,14 @@ const Contact = () => {
 
     try {
       const res = axiosInstance.post("/contact", { ...userInput });
+      //console.log(res);
       toast.promise(res, {
         loading: "Submitting your message...",
         success: "Form submitted successfully",
         error: "Failed to submit the form",
       });
       const response = await res;
-
+      console.log(response);
       // clearing the input fields after successfull submission of form
       if (response?.data?.success) {
         setUserInput({

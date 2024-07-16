@@ -1,3 +1,5 @@
+import {config} from 'dotenv';
+config();
 import { v2 } from 'cloudinary';
 import Razorpay from 'razorpay';
 
