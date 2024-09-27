@@ -176,12 +176,12 @@ const Homepage = () => {
                 <div className="title text-center">Globally Recognized Online Degrees</div>
               </div>
 
-              <div className="line-items">
+              {/* <div className="line-items">
                 <div className="logo">
                   <img src={ACU} alt="Member of ACU" />
                 </div>
                 <div className="title text-center">Member of ACU</div>
-              </div>
+              </div> */}
 
               <div className="line-items">
                 <div className="logo text-center">
@@ -190,12 +190,12 @@ const Homepage = () => {
                 <div className="title text-center">International Credential Assessment Service of Canada</div>
               </div>
 
-              <div className="line-items">
+              {/* <div className="line-items">
                 <div className="logo">
                   <img src={IQAS} alt="International Qualifications Assessment Service (IQAS)" />
                 </div>
                 <div className="title text-center">International Qualifications Assessment Service (IQAS)</div>
-              </div>
+              </div> */}
             </Slider>
           </div>
         </div>
