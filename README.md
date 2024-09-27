@@ -22,7 +22,7 @@ Students can access recorded lectures that were filmed during live classes, prov
 Here are some screenshots of the application:
 
 ### Admin Page
-![Admin Page 1](client\src\Assets\Images\imagesforgit\AdminDashboard.jpg)
+![Admin Page 1](client/src/Assets/Images/imagesforgit/AdminDashboard.jpg)
 ![Admin Page 2](path/to/admin_page2.png)
 
 ### Home Page
