@@ -21,27 +21,39 @@ Students can access recorded lectures that were filmed during live classes, prov
 ## Screenshots
 Here are some screenshots of the application:
 
-### Admin Page
-![Admin Page 1](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/AdminDasboard.jpg)
-![Admin Page 2](path/to/admin_page2.png)
-
 ### Home Page
-![Home Page 1](path/to/home_page1.png)
-![Home Page 2](path/to/home_page2.png)
-![Home Page 3](path/to/home_page3.png)
-
-### Course Management
-![Add Lecture](path/to/add_lecture.png)
-![Add Course](path/to/add_course.png)
+![Home Page 2](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/HomePage.jpg)
+![Home Page 1](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Home%20page2.jpg)
+![Home Page 3](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/HomePage3.jpg)
 
 ### Login and Course List
-![Login Page](path/to/login_page.png)
-![Course List](path/to/course_list.png)
+![Login Page](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Login%20page.jpg)
+![Course List](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/courseList.jpg)
+
+### Admin Page
+![Admin Page 1](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/AdminDasboard.jpg)
+![Admin Page 2](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/AdminDasboard2.jpg)
+
+### Course Management
+![Add Lecture](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Addlectures.jpg)
+![Add Course](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/createCourse.jpg)
 
 ## Installation
 To run this application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/INTROVERTc0der/LNM-EduStream.git
    cd LNM-EduStream
+
+2. Install the required dependencies
+   ```bash
+   npm install
+
+3. Start the application
+   ```bash
+   npm start
+
+## Usage
+For Students: Register on the platform and start browsing courses to enhance your learning experience.
+For Admins: Log in to manage courses and monitor user engagement.
