@@ -23,19 +23,13 @@ Here are some screenshots of the application:
 
 ### Home Page
 ![Home Page 2](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/HomePage.jpg)
-![Home Page 1](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Home%20page2.jpg)
-![Home Page 3](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/HomePage3.jpg)
 
 ### Login and Course List
 ![Login Page](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Login%20page.jpg)
 ![Course List](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/courseList.jpg)
 
-### Admin Page
-![Admin Page 1](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/AdminDasboard.jpg)
-![Admin Page 2](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/AdminDasboard2.jpg)
 
 ### Course Management
-![Add Lecture](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/Addlectures.jpg)
 ![Add Course](https://github.com/INTROVERTc0der/LNM-EduStream/blob/main/client/src/Assets/Images/imagesforgit/createCourse.jpg)
 
 ## Installation
